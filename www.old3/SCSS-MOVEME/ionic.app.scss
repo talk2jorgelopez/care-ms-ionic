@@ -1,0 +1,8 @@
+$dark: #444444;
+$link-color: $dark;
+$ionicons-font-path: "../lib/ionic/fonts" !default;
+@import "../www/lib/ionic/scss";
+ion-view,.pane,.view {
+	background-color: #F1F1F1;
+}
+

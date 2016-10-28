@@ -1,0 +1,24 @@
+
+<ion-view title="Search By Symptoms" id="page7">
+  <ion-nav-buttons side="right" class="has-header">
+    <button class="button icon ion-ios-gear"></button>
+  </ion-nav-buttons>
+  <ion-content padding="true" class="has-header" ng-controller="symptomRailsController">
+    <div id="searchBySymptoms-container7">
+      <form id="searchBySymptoms-form6" class="list">
+        <label class="item item-input">
+          <i class="icon ion-search placeholder-icon"></i>
+          <input type="search" placeholder="">
+        </label>
+        <div class="spacer" style="height: 100px;"></div>
+      </form>
+    </div>
+<div>
+      <ul>
+          <li ng-repeat='item in symptoms'> {{item.symptom_type}} </li>
+      </ul>
+</div>
+
+
+  </ion-content>
+</ion-view>
